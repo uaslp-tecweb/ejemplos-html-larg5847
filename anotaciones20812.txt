@@ -1,0 +1,19 @@
+usar alt en imagenes para accesibilidad en codigo
+
+
+entrar al repositorio clonado (en este caso seria)
+
+cd ejemplos-html-larg5847
+
+luego verificar con 
+
+git status
+
+lugo 
+
+git add nombrearchivo
+git add nombre carpeta
+
+git commit -m "textto"
+
+git push
