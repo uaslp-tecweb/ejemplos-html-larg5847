@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejemplo de Formularios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Ejemplo de formularios</h1>
+
+    <h2>ejemplo de login</h2>
+    <form>
+        <div>
+            <label>usuario:</label> 
+            <input type="text" name="usuario">
+        </div>
+        <div>
+            <label>contrasenia:</label>
+            <input type="password" name="contrasenia">
+        </div>
+        <input type="submit">
+    </form>
+
+    <h2>ejemplo checkboxes</h2>
+    <form>
+        <fieldset>
+            <legend>lenguajes favoritos </legend>
+            <input type="checkbox" name="lenguaje" value="C"><label>C</label>
+            <input type="checkbox" name="lenguaje" value="C#"><label>C#</label>
+            <input type="checkbox" name="lenguaje" value="Java"><label>Java</label>
+            <input type="checkbox" name="lenguaje" value="Js"><label>Js</label>
+        </fieldset>
+        <input type="submit">
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>en que facultad estas estudiando actualmente</legend>
+            <div>
+                <input type="radio" name="facultad" value="1">
+                <label>ingenieria</label>
+            </div>
+            <div>
+                <input type="radio" name="facultad" value="2">
+                <label>medicina</label>
+            </div>
+            <div>
+                <input type="radio" name="facultad" value="3">
+                <label>ciencias</label>
+            </div>
+        </fieldset>
+        <input type="submit">
+    </form>
+
+    <hr>
+    <a  href="https://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!">
+    </a>
+</body>
+</html>
