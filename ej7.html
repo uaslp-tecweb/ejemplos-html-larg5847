@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" value="nombre">
+            <label>Last Name</label>
+            <input type="text" value="apellido">
+        </div>
+        <div>
+            <label>Male</label>
+            <input type="radio" name="sexo" value="H">
+            <label>Female</label>
+            <input type="radio" name="sexo" value="M">
+            <label>Other</label>
+            <input type="radio" name="sexo" value="O">
+        </div>
+        <div>
+            <label>Birthday</label>
+            <label for="mes"></label>
+            <select id="mes">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+            </select>
+            <label for="dias"></label>
+            <select id="dias">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <label for="anio"></label>
+            <select id="anio">
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+            </select>
+        </div>
+        <div>
+            <label>I agree to the terms and conditions </label>
+            <input type="checkbox">
+        </div>
+        <input type="submit">
+    </form>
+    <div>
+        <a href="./index.html">volver</a>
+    </div>
+    <hr>
+    <a  href="https://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!">
+    </a>
+</body>
+</html>
